@@ -1,0 +1,47 @@
+body {
+	background-color: #f5f5f5;
+}
+
+.title {
+	margin-top: 0.5em;
+}
+
+h1 {
+	font-size: calc(2rem + 1.5vw);
+}
+
+.username-card {
+	background-color: white;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.settings-card {
+	background-color: white;
+	border-radius: 25px;
+	padding: 1em;
+}
+
+.card-separator {
+	background-color: green;
+	height: 12px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#usernameDisplay {
+    font-family: 'Fira Code', 'Menlo', 'Monaco', sans-serif;
+    display: inline;
+	border: none;
+	border-color: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	margin: .3em;
+	font-size: calc(1rem + 1.5vw);
+}
+
+.generator-control {
+	color: grey;
+	margin-top: calc(1rem + 1.5vw);
+	margin-right: 1.5rem;
+}
